@@ -16,5 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         goSqLiteDB.setOnClickListener { Navigator.goSqLiteDB(this) }
+        goRealm.setOnClickListener { Navigator.goRealm(this) }
+        goGreenDAO.setOnClickListener { Navigator.goGreenDAO(this) }
     }
 }

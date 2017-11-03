@@ -9,8 +9,11 @@ import android.view.ViewGroup
 /**
  * Created by DavidHa on 2017. 11. 3..
  */
-class GreenDAOFragment : Fragment() {
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
-    }
+class GreenDAOFragment : BaseFragment() {
+
+    companion object {
+        fun getInstance() : GreenDAOFragment{
+            return GreenDAOFragment()
+        }
+   }
 }
